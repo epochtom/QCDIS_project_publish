@@ -275,11 +275,5 @@ See [license.txt](license.txt) for details.
 - Set `FORCE_CLASSICAL=True` to use classical fallbacks
 - Reduce dataset size or batch size
 
-## 📧 Contact
 
-For questions or support, please open an issue on GitHub.
-
----
-
-**Note**: This project uses quantum computing libraries and may require significant computational resources for large datasets. Consider using classical fallbacks (`FORCE_CLASSICAL=True`) for faster execution during development.
 
