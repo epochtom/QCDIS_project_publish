@@ -1,0 +1,87 @@
+[
+  {
+    "prompt": "help me create a AI model to predict output of Wine10.csv until MSE less than 100.",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "I need to classify customer behavior into different segments with high accuracy",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "Build a model to predict house prices using linear relationships",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "Create a model to detect fraud in financial transactions with interpretable results",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "I want to predict stock prices with high performance",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "Classify emails as spam or not spam with fast training",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "Predict sales revenue for next quarter with good accuracy",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "Identify customer churn risk using machine learning",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "Forecast demand for products using historical data",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "Forecast demand for stock using historical data",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "Predict energy consumption in buildings using time series data",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "Detect anomalies in network traffic for cybersecurity",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "Segment medical images to identify tumors automatically",
+    "label": "PQK(python, TensorFlow Quantum libraries) + CNN (python, TensorFlow libraries)"
+  },
+  {
+    "prompt": "Predict patient readmission risk in hospitals",
+    "label": "Python_QFM + XGBoost"
+  },
+  {
+    "prompt": "Estimate crop yield based on satellite and weather data",
+    "label": "Matlab_SVDPCA + KNN"
+  },
+  {
+    "prompt": "Classify sentiment in customer reviews with high precision",
+    "label": "Python_QPCA + Regression"
+  },
+  {
+    "prompt": "Forecast traffic congestion in smart cities",
+    "label": "Python_QFM + XGBoost"
+  },
+  {
+    "prompt": "Recommend products to users based on purchase history",
+    "label": "Python_QPCA + XGBoost"
+  },
+  {
+    "prompt": "Predict earthquake magnitude using seismic sensor data",
+    "label": "QPCA (python) + CNN (python)"
+  },
+  {
+    "prompt": "Detect credit card fraud in real-time with low latency",
+    "label": "Python_QFM + CNN"
+  }
+  ,
+  {
+    "prompt": "Detect tsunami using earthquake data",
+    "label": "Python_QFM + Regression"
+  }
+]

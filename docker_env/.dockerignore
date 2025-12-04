@@ -1,0 +1,45 @@
+# Docker ignore file
+# Exclude unnecessary files from Docker build context
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docker
+docker_env/
+*.log
+
+# Data (will be mounted as volumes)
+upload/
+output/
+neural_network_model/
+
+# Other
+*.md
+!docker_env/README.md
+

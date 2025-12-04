@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  training-script:
+    build:
+      context: ..
+      dockerfile: docker_env/Dockerfile
+    image: universal-training:latest
+    container_name: universal-training-container
+    volumes:
+      # Mount data directory for input files
+      - ../upload:/app/data:ro
+      # Mount output directory for results
+      - ../output:/app/output:rw
+      # Mount universal_training_script for easy updates
+      - ../universal_training_script:/app/universal_training_script:ro
+    working_dir: /app
+    # Set timeout to 24 hours (86400 seconds)
+    stop_grace_period: 86400s
+    # Resource limits (optional, adjust as needed)
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+        reservations:
+          memory: 4G
+    # Keep container running for interactive use
+    stdin_open: true
+    tty: true
+
