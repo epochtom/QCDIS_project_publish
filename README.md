@@ -1,14 +1,14 @@
 # QCDIS - Quantum Computing Data Intelligence System
 
-A comprehensive GUI application for quantum machine learning that intelligently recommends and executes quantum ML methodologies based on user prompts. QCDIS provides an end-to-end workflow from prompt input to model training and performance analysis.
+A comprehensive GUI application for quantum machine learning that intelligently recommends and executes quantum ML methodologies based on the user prompts. QCDIS provides an end-to-end workflow from prompt input to model training and performance analysis.
 
 ## 🌟 Features
 
-- **Intelligent Methodology Prediction**: Uses a neural network to recommend the best quantum ML methodology based on user prompts
-- **Multiple Quantum ML Approaches**: Supports various quantum computing techniques including:
-  - **Quantum PCA (QPCA)** with Regression, CNN, or XGBoost classifiers
-  - **Quantum Feature Mapping (QFM)** with Regression, CNN, or XGBoost classifiers
-  - **Projected Quantum Kernel (PQK)** with Neural Networks
+- **Intelligent Methodology Prediction**: A neural network recommends the best quantum ML methodology based on user prompts
+- **Multiple Quantum ML Approaches**
+  - **Quantum PCA (QPCA)** with Logistic Regression, CNN, or XGBoost classifiers
+  - **Quantum Feature Mapping (QFM)** with Linear Regression, CNN, or XGBoost
+  - **Projected Quantum Kernel (PQK)** with Neural Network
   - **MATLAB SVD-PCA** with K-Nearest Neighbors
 - **Image to CSV Conversion**: Convert image datasets to CSV format for processing
 - **Docker Integration**: Execute training scripts in isolated Docker containers with 24-hour timeout
@@ -40,8 +40,8 @@ A comprehensive GUI application for quantum machine learning that intelligently 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/QCDIS_project.git
-cd QCDIS_project
+git clone https://github.com/epochtom/QCDIS_project_publish.git
+cd QCDIS_project_publish
 ```
 
 2. Install Python dependencies:
@@ -271,7 +271,7 @@ See [license.txt](license.txt) for details.
 - Ensure MATLAB license is set in environment variables
 
 ### Performance Issues
-- Reduce `N_QUBITS` for faster quantum computations
+- Reduce the number of qubits "N_QUBITS"
 - Set `FORCE_CLASSICAL=True` to use classical fallbacks
 - Reduce dataset size or batch size
 
